@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"0>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            height: 600px; 
+        }
+        span img{
+            justify-content: center;
+            padding-left: 15px;
+            cursor: pointer;
+        }
+        .left-bar,.right-bar{
+            border-top: 1px solid gray;
+            width: 100px;
+        }
+        .new{
+            display: flex;
+        }
+        .bar-title{
+            margin-top: -20px;
+            padding: 10px;
+            color:gray;
+            font-size: 15px;
+        }
+        .singin{
+            border: 1px solid gray;
+            padding: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body class="container-fluid d-flex justify-content-center align-items-center">
+ <div>
+    <form class="border border-1 border-secondary p-4">
+        <span class="ps-3"><img src="./public/image/instagram.png"></span>
+        <div class="mb-3 mt-3">
+            <div>
+                <input type="text" placeholder="User name,or email" class="form-control" name="User name,or email">
+            </div>
+        </div>
+        <div class="mb-3">
+            <div>
+               <input type="text" placeholder="Password" class="form-control" name="password">
+            </div>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary w-100">Login</button>
+        </div>
+        <div class="mt-4">
+          <div class="new">
+            <div class="left-bar"></div>
+            <span class="bar-title"> OR </span>
+            <div class="right-bar"></div>
+          </div>
+        </div>
+        <div class="ps-4 pt-3" cursor="pointer">
+            <span class="bi bi-facebook ps-2"><font color="#385185"> Log in with facebook</font></span>
+        </div>
+        <div class="ps-5 pt-3">
+            <span class="ps-3"><font color="gray" size="2"> Forget password ?</font></span>
+        </div>
+    </form>
+    <div class="singin ps-4">
+        <span>Dont have an account ? Sing in</span>
+    </div>
+        <div class="ps-5"> Get the app.</div>
+    </div>
+</div>
+</body>   
+</html>
